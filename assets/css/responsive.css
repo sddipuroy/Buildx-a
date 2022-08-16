@@ -1,0 +1,264 @@
+@media all and (max-width: 1200px) {
+  .container {
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+  }
+  .consulting-content p {
+    font-size: 2.9rem;
+  }
+  .consulting-content p a {
+    margin-right: 1rem;
+  }
+  .newsleater-content h3 {
+    font-size: 1.8rem;
+  }
+  .btn {
+    padding: 1.8rem 4rem;
+  }
+}
+@media all and (max-width: 991px){
+  display: flex;
+}
+@media all and (max-width: 990px) {
+  .menu ul{
+    display: none;
+    position: absolute;
+    top: 6.8rem;
+    left: 0;
+    background: #252c3a;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  .menu ul li a{
+    color: #ffff;
+    padding: 1rem 0;
+    display: inline-block;
+  }
+  .menu-icon .menu-ber {
+    display: inline-block;
+  }
+  .consulting-content p {
+    line-height: 4rem;
+  }
+  .consulting-content {
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .consulting-content .btn2 {
+    margin-top: 2rem;
+  }
+  .service-items {
+    -ms-grid-columns: (1fr) [2];
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 2rem;
+  }
+  .service-items .single-item:last-child {
+    -ms-grid-column: span 2;
+    grid-column: span 2;
+    width: 35rem;
+    margin: auto;
+  }
+  .video-testimonial {
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .video-testimonial-right-side {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .testimonial-content-item {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .main-gleary {
+    -ms-grid-columns: (1fr) [2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .single-pratner img {
+    width: 183px;
+  }
+  .newsleater {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .btn {
+    margin-top: 2rem;
+  }
+  .newsleater-content {
+    text-align: center;
+  }
+}
+@media all and (max-width: 767px) {
+  .baner-containt h1 {
+    font-size: 5.4rem;
+  }
+  .baner-containt {
+    padding: 5rem 0;
+  }
+  .section-pd {
+    padding: 5rem 0;
+  }
+  .service-title h2 {
+    font-size: 3.4rem;
+  }
+  .service-title p {
+    padding: 2rem 1rem 3rem 1rem;
+  }
+  .img-overley-icon {
+    margin-top: 2rem;
+  }
+  .coustomer-feedback {
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 3rem;
+  }
+  .single-pratner img {
+    width: 135px;
+  }
+  .footer-items {
+    -ms-grid-columns: (1fr) [2];
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 6rem;
+  }
+  .footer-img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+  }
+  .footer-bottom-aria {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .left-footer p {
+    margin-bottom: 1.5rem;
+  }
+}
+@media all and (max-width: 576px) {
+  .header-top {
+    display: none;
+  }
+  .baner-containt h1 {
+    font-size: 4.4rem;
+  }
+  .baner-containt {
+    padding: 3rem 0;
+  }
+  .btn {
+    padding: 1.3rem 2rem;
+  }
+  .consulting-aria {
+    padding: 1.5rem 0;
+  }
+  .consulting-content p {
+    font-size: 2.5rem;
+  }
+  .consulting-content p a {
+    font-size: 2.5rem;
+  }
+  .service-items {
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .service-items .single-item:last-child {
+    -ms-grid-column: span 1;
+    grid-column: span 1;
+    width: 100%;
+  }
+  .testimonial-icon {
+    height: 5rem;
+    width: 10rem;
+  }
+  .testimonial-icon a {
+    font-size: 5rem;
+  }
+  .main-gleary {
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .coustomers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .coustomers-content h3 {
+    text-align: center;
+  }
+  .main-partner {
+    -ms-grid-columns: (1fr) [2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fun-fact {
+    -ms-grid-columns: (1fr) [2];
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem 0;
+    grid-row-gap: 2rem;
+  }
+  .single-fun-fact h3 {
+    font-size: 4rem;
+  }
+  .service-items {
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 5rem;
+  }
+}
+@media all and (max-width: 480px) {
+  .service-title p {
+    padding: 1rem 0 4rem 0;
+  }
+  .section-pd {
+    padding: 2rem 0;
+  }
+  .service-title h2 {
+    font-size: 3rem;
+  }
+  .video-testimonial-right-side {
+    padding: 0px 2rem;
+  }
+  .service-title p {
+    padding: 1rem 0 5rem 0;
+  }
+  .service-title ul {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .service-title ul li a {
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+  .footer-items {
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 4rem;
+  }
+  .right-footer ul li a {
+    padding: 0 10px;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+}
+@media all and (max-width: 400px) {
+  .baner-containt h1 {
+    font-size: 2.4rem;
+  }
+  .consulting-content p {
+    font-size: 2.2rem;
+  }
+  .consulting-content p a {
+    font-size: 2.2rem;
+  }
+  .service-title h2 {
+    font-size: 2.5rem;
+  }
+}
